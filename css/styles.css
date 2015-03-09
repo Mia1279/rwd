@@ -7,7 +7,7 @@ body{
 /* LAYOUT */
 
 .container {
-	background: mediumpurple;
+	background: lightblue;
 	margin: 0 auto;
 	width: 90%;
 }
@@ -32,4 +32,40 @@ iframe, img {
 	#home {
 		width: 300px;
 	}
+		#youtube-big {
+			width: 420px; 
+		}
+
+		#youtube-med{
+
+
+		display: block;
+	}
+	
+
+/* Tablet Query*/
+@media (min-width: 960px) {
+	#youtube-med{
+		display: none;
+	}
+
+		#youtube-big{
+		display: block;
+	}
+
+
+}
+
+/* Mobile Query */
+@media (max-width: 480px) {
+
+	article section{
+		float: none;
+		
+		width: 100%;
+	}
+	#youtube-med {
+		display: none;
+	}
+
 }
