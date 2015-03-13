@@ -6,8 +6,18 @@ body{
 
 ul {
 	font-family: cursive;
+	text-align: center;
+
 }
 
+a:hover {
+	color: white;
+	
+}
+
+li {
+	padding: 20px;
+}
 /* LAYOUT */
 
 .container {
@@ -177,3 +187,11 @@ h1 {
     margin-right: auto;
     width:100%;
 }
+
+.red:hover{
+	max-width: 400px;
+}
+.bw:hover{
+	max-width: 400px;
+}
+
